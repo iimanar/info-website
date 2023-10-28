@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #e4dbd3; 
+}
+
+/* Header Section Styles */
+.header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Body Section Styles */
+.body {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Personal Info Styles */
+.Personal {
+    margin-bottom: 20px;
+    background-color: #faf1e6;
+}
+
+/* Education Section Styles */
+.Education {
+    margin-top: 30px;
+    background-color: #faf1e6;
+}
+
+/* Footer Section Styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #faf1e6;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Link Styles */
+a {
+    color: #3760c9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+/* Heading Styles */
+h2 {
+    color: #070707;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Paragraph Styles */
+p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Project Section Styles */
+.Projects {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #faf1e6;
+}
+
+.Projects h2 {
+    text-align: center;
+    color: #141313;
+}
+
+.Projects ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.Projects li {
+    text-align: center;
+    font-style: italic;
+}
+
+.Projects h3 {
+    color: #333;
+    text-align: center;
+}
+
+.Projects p {
+    color: #555;
+}
+
+.Projects img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.Projects a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+.Projects a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 576px) {
+    /* Adjust styles for small screens */
+    .body {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    /* Adjust styles for medium screens */
+    .body {
+        margin: 15px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    /* Adjust styles for large screens */
+    .body {
+        margin: 20px;
+    }
+}
+
+
+
+
